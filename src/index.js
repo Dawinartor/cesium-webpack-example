@@ -18,13 +18,13 @@ try {
 
   // Fly the camera to San Francisco at the given longitude, latitude, and height.
   viewer.camera.flyTo({
-  destination : Cartesian3.fromDegrees(7.1019, 50.7374, 400),
-  orientation : {
-    heading : Math.toRadians(0.0),
-    pitch : Math.toRadians(-15.0),
-  }
-});
+    destination : Cartesian3.fromDegrees(7.1019, 50.7374, 400),
+    orientation : {
+      heading : Math.toRadians(0.0),
+      pitch : Math.toRadians(-15.0),
+    }
+  });
 
 } catch (error) {
-  console.log(error);
+    console.log(error);
 }
